@@ -19,11 +19,19 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 | **Text** | Cor do texto do pop-up de convite automático |
 | **Dismiss Invitation Button** | Cor do "✕" (fechar) nos pop-ups |
 
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Chat Button and Invitation](imagens/Chat%20Button%20and%20Invitation.png) | ![Exemplo Chat Button and Invitation](imagens/Chat%20Button%20and%20Invitation%20Example.png) |
+
 ### Cabeçalho (Header)
 | Elemento | O que controla |
 |---|---|
 | **Background** | Cor de fundo do cabeçalho |
-| **Text** | Cor do texto do cabeçalho, do botão de minimizar e do ícone de menu |
+| **Text and Navigation Icons** | Cor do texto do cabeçalho, do botão de minimizar e do ícone de menu |
+
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Header](imagens/Header.png) | ![Exemplo Header](imagens/Header%20Example.png) |
 
 ### Agente de IA / Bot e Representante (AI Agent and Service Representative)
 | Elemento | O que controla |
@@ -32,6 +40,10 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 | **Text** | Cor do texto do lado do agente de IA / bot |
 | **Link** | Cor dos links no lado do agente de IA / bot |
 
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração AI Agent and Service Rep](imagens/AI%20Agent%20and%20Service%20REP.png) | ![Exemplo AI Agent and Service Rep](imagens/AI%20Agent%20and%20Service%20REP%20Example.png) |
+
 ### Usuário Final (End User)
 | Elemento | O que controla |
 |---|---|
@@ -39,10 +51,18 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 | **Text** | Cor do texto do usuário final |
 | **Link** | Cor dos links do usuário final |
 
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração End User](imagens/End%20User.png) | ![Exemplo End User](imagens/End%20User%20Example.png) |
+
 ### Corpo da Conversa (Conversation Body)
 | Elemento | O que controla |
 |---|---|
 | **Text** | Cor do texto inserido pelo sistema e do corpo das mensagens do usuário |
+
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Conversation Body](imagens/Conversation%20Body.png) | ![Exemplo Conversation Body](imagens/Conversation%20Body%20Example.png) |
 
 ### Rodapé (Footer)
 | Elemento | O que controla |
@@ -50,17 +70,29 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 | **Icon** | Cor dos ícones de anexo, emoji e enviar |
 | **Footer** | Cor da borda do rodapé |
 
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Footer](imagens/Footer.png) | ![Exemplo Footer](imagens/Footer%20Example.png) |
+
 ### Citações (Citations)
 | Elemento | O que controla |
 |---|---|
 | **Background** | Cor de destaque do fundo da seção de título da fonte |
 | **Text** | Cor do texto do título do link da fonte citada |
 
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Citations](imagens/Citations.png) | ![Exemplo Citations](imagens/Citations%20Example.png) |
+
 ### Selos e Botões (Badges and Buttons)
 | Elemento | O que controla |
 |---|---|
 | **Badge** | Cor do selo "ir para a mensagem mais recente" |
 | **Button** | Cor do botão "Iniciar" e botões semelhantes |
+
+| Configuração | Exemplo |
+|---|---|
+| ![Configuração Badges and Buttons](imagens/Badges%20and%20Buttons.png) | ![Exemplo Badges and Buttons](imagens/Badges%20and%20Buttons%20Example.png) |
 
 ---
 
@@ -71,6 +103,8 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 | **Seleção de Fonte** | 13 fontes pré-definidas (Arial, Georgia, Times New Roman, etc.) |
 | **Fonte Personalizada** | Subir um *static resource* e informar o nome da família da fonte (font family) |
 | **Tamanho da Fonte** | Pequeno (Small), Médio (Medium) ou Grande (Large) |
+
+![Configuração de Fontes](imagens/Font.png)
 
 ---
 
@@ -85,6 +119,8 @@ As cores podem ser definidas escolhendo no seletor de cores ou digitando o códi
 
 Também é possível personalizar (em fluxos de pré-chat): imagem de fundo do pré-chat, logo, imagem de estado de espera (*waiting state*) e os avatares/fotos do atendente e do Einstein Bot.
 
+![Configuração de Imagens](imagens/Images.png)
+
 ---
 
 ## 4. Tamanho da Janela de Chat (Chat Window Size)
@@ -93,6 +129,8 @@ Também é possível personalizar (em fluxos de pré-chat): imagem de fundo do p
 |---|---|---|
 | **Largura (Width)** | 80 px | 320 px |
 | **Altura (Height)** | 120 px | 480 px |
+
+![Configuração de dimensões da janela de chat](imagens/Chat%20Window%20and%20Dimension.png)
 
 ---
 
@@ -104,10 +142,6 @@ Na versão WEB é possível ir além das opções padrão e customizar o cabeça
 - **`customHeader.css`** — define o estilo (cores, espaçamento, etc.) desses componentes e botões.
 
 > Isso permite um cabeçalho totalmente sob medida, recurso exclusivo da implementação Web (Enhanced/Lightning Web Components).
-
-![Cabeçalho customizado da janela de conversa (Messaging for Web)](custom-header-using-lwc.jpg)
-
-*Exemplo de cabeçalho de chat customizado via LWC na versão Web. (Imagem oficial da documentação Salesforce.)*
 
 ---
 
